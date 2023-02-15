@@ -8,7 +8,7 @@ To generate the files as-is:
 
 ```
 $ npm install
-$ npm run gen
+$ npm run build
 ```
 
 To generate other atom themes, replace the `colors.less` with the corresponding theme's `color.less`.

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Packaging Atom's one-light theme for Jekyll usage",
   "scripts": {
-    "gen": "lessc syntax.less dist/syntax.css --clean-css"
+    "build": "lessc syntax.less dist/syntax.css --clean-css"
   },
   "repository": {
     "type": "git",
