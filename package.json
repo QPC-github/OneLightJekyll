@@ -1,0 +1,22 @@
+{
+  "name": "one-light-jekyll",
+  "version": "1.0.0",
+  "description": "Packaging Atom's one-light theme for Jekyll usage",
+  "scripts": {
+    "gen": "lessc syntax.less dist/syntax.css --clean-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-the-docs/OneLightJekyll.git"
+  },
+  "author": "Matthew Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/just-the-docs/OneLightJekyll/issues"
+  },
+  "homepage": "https://github.com/just-the-docs/OneLightJekyll#readme",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}

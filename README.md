@@ -1,18 +1,24 @@
-# OneDarkJekyll
+# OneLightJekyll
 
-*Use Atom's One Dark syntax colors in your Jekyll powered blog!*
+This is a fork of [mgyongyosi/OneDarkJekyll](https://github.com/mgyongyosi/OneDarkJekyll)'s, but using Atom's [one-light-syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax) instead. We use this in [just-the-docs](https://github.com/just-the-docs/just-the-docs) as our main light theme.
 
-It's LESS file which can be compiled to a - Pygments, Rouge compatible - stylesheet from Atom editor's One Dark syntax theme (and any theme based on it, for example One Dark Vivid, Firewatch, etc.).
+## Usage
 
-Download the stylesheet files or compile a new one from any Atom syntax theme which based on One Dark (the variable names in `colors.less` must match with One Dark's)
+To generate the files as-is:
 
-## Create a new syntax stylesheet
+```
+$ npm install
+$ npm run gen
+```
 
-1. `npm install -g less less-plugin-clean-css`
-2. Clone this repository
-3. Download the `colors.css` file from the syntax theme's repository (for example https://github.com/atom/one-dark-syntax/blob/master/styles/colors.less in case of One-Dark)
-4. Put the previously downloaded file next to `syntax.less`
-5. Run `lessc syntax.less syntax.css --clean-css`
-6. Use the `syntax.css`
+To generate other atom themes, replace the `colors.less` with the corresponding theme's `color.less`.
 
-It's not final and in case you find any error/improvement feel free to create a PR. :)
+
+## Licensing and Attribution
+
+This is highly derivative of two MIT-licensed works:
+
+- [mgyongyosi/OneDarkJekyll](https://github.com/mgyongyosi/OneDarkJekyll)
+- [atom/atom - one-light-syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax)
+
+We've included the license files for both in this repository.
